@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn import init
 import functools
-from deconv import FastDeconv
+from .deconv import FastDeconv
 from DCNv2.dcn_v2 import DCN
 
 
